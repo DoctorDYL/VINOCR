@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B253BB1D2CCDAB000D8E79 /* vin_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B253AC1D2CCDAB000D8E79 /* vin_common.cpp */; };
+		23B253BC1D2CCDAB000D8E79 /* vin_detect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B253AE1D2CCDAB000D8E79 /* vin_detect.cpp */; };
+		23B253BD1D2CCDAB000D8E79 /* vin_locate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B253B01D2CCDAB000D8E79 /* vin_locate.cpp */; };
+		23B253BE1D2CCDAB000D8E79 /* vin_segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B253B21D2CCDAB000D8E79 /* vin_segment.cpp */; };
+		23B253BF1D2CCDAB000D8E79 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B253B51D2CCDAB000D8E79 /* opencv2.framework */; };
+		23B253C01D2CCDAB000D8E79 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B253B61D2CCDAB000D8E79 /* TesseractOCR.framework */; };
+		23B253C11D2CCDAB000D8E79 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 23B253B81D2CCDAB000D8E79 /* UIImageCVMatConverter.mm */; };
+		23B253C21D2CCDAB000D8E79 /* VINOCR.mm in Sources */ = {isa = PBXBuildFile; fileRef = 23B253BA1D2CCDAB000D8E79 /* VINOCR.mm */; };
+		23B253C51D2CCDC6000D8E79 /* vin_common.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 23B253AD1D2CCDAB000D8E79 /* vin_common.hpp */; };
+		23B253C71D2CCDC6000D8E79 /* vin_detect.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 23B253AF1D2CCDAB000D8E79 /* vin_detect.hpp */; };
+		23B253C91D2CCDC6000D8E79 /* vin_locate.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 23B253B11D2CCDAB000D8E79 /* vin_locate.hpp */; };
+		23B253CB1D2CCDC6000D8E79 /* vin_segment.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 23B253B31D2CCDAB000D8E79 /* vin_segment.hpp */; };
+		23B253CC1D2CCDC6000D8E79 /* UIImageCVMatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B253B71D2CCDAB000D8E79 /* UIImageCVMatConverter.h */; };
+		23B253CE1D2CCDC6000D8E79 /* VINOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B253B91D2CCDAB000D8E79 /* VINOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B254031D2CD04D000D8E79 /* hog+svm in Resources */ = {isa = PBXBuildFile; fileRef = 23B254011D2CD04D000D8E79 /* hog+svm */; };
+		23B254041D2CD04D000D8E79 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 23B254021D2CD04D000D8E79 /* tessdata */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23B253A51D2CCCDD000D8E79 /* VINOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VINOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B253A71D2CCCDD000D8E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B253AC1D2CCDAB000D8E79 /* vin_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vin_common.cpp; sourceTree = "<group>"; };
+		23B253AD1D2CCDAB000D8E79 /* vin_common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vin_common.hpp; sourceTree = "<group>"; };
+		23B253AE1D2CCDAB000D8E79 /* vin_detect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vin_detect.cpp; sourceTree = "<group>"; };
+		23B253AF1D2CCDAB000D8E79 /* vin_detect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vin_detect.hpp; sourceTree = "<group>"; };
+		23B253B01D2CCDAB000D8E79 /* vin_locate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vin_locate.cpp; sourceTree = "<group>"; };
+		23B253B11D2CCDAB000D8E79 /* vin_locate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vin_locate.hpp; sourceTree = "<group>"; };
+		23B253B21D2CCDAB000D8E79 /* vin_segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vin_segment.cpp; sourceTree = "<group>"; };
+		23B253B31D2CCDAB000D8E79 /* vin_segment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vin_segment.hpp; sourceTree = "<group>"; };
+		23B253B51D2CCDAB000D8E79 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		23B253B61D2CCDAB000D8E79 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		23B253B71D2CCDAB000D8E79 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
+		23B253B81D2CCDAB000D8E79 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
+		23B253B91D2CCDAB000D8E79 /* VINOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VINOCR.h; sourceTree = "<group>"; };
+		23B253BA1D2CCDAB000D8E79 /* VINOCR.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VINOCR.mm; sourceTree = "<group>"; };
+		23B254011D2CD04D000D8E79 /* hog+svm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "hog+svm"; sourceTree = "<group>"; };
+		23B254021D2CD04D000D8E79 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B253A21D2CCCDD000D8E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B253C01D2CCDAB000D8E79 /* TesseractOCR.framework in Frameworks */,
+				23B253BF1D2CCDAB000D8E79 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B2538C1D2CCCA4000D8E79 = {
+			isa = PBXGroup;
+			children = (
+				23B253A61D2CCCDD000D8E79 /* VINOCR */,
+				23B253961D2CCCA4000D8E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B253961D2CCCA4000D8E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B253A51D2CCCDD000D8E79 /* VINOCR.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B253A61D2CCCDD000D8E79 /* VINOCR */ = {
+			isa = PBXGroup;
+			children = (
+				23B254011D2CD04D000D8E79 /* hog+svm */,
+				23B254021D2CD04D000D8E79 /* tessdata */,
+				23B253AB1D2CCDAB000D8E79 /* Core */,
+				23B253B41D2CCDAB000D8E79 /* Frameworks */,
+				23B253B71D2CCDAB000D8E79 /* UIImageCVMatConverter.h */,
+				23B253B81D2CCDAB000D8E79 /* UIImageCVMatConverter.mm */,
+				23B253B91D2CCDAB000D8E79 /* VINOCR.h */,
+				23B253BA1D2CCDAB000D8E79 /* VINOCR.mm */,
+				23B253A71D2CCCDD000D8E79 /* Info.plist */,
+			);
+			path = VINOCR;
+			sourceTree = "<group>";
+		};
+		23B253AB1D2CCDAB000D8E79 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				23B253AC1D2CCDAB000D8E79 /* vin_common.cpp */,
+				23B253AD1D2CCDAB000D8E79 /* vin_common.hpp */,
+				23B253AE1D2CCDAB000D8E79 /* vin_detect.cpp */,
+				23B253AF1D2CCDAB000D8E79 /* vin_detect.hpp */,
+				23B253B01D2CCDAB000D8E79 /* vin_locate.cpp */,
+				23B253B11D2CCDAB000D8E79 /* vin_locate.hpp */,
+				23B253B21D2CCDAB000D8E79 /* vin_segment.cpp */,
+				23B253B31D2CCDAB000D8E79 /* vin_segment.hpp */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		23B253B41D2CCDAB000D8E79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23B253B51D2CCDAB000D8E79 /* opencv2.framework */,
+				23B253B61D2CCDAB000D8E79 /* TesseractOCR.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23B253C31D2CCDB4000D8E79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B253CE1D2CCDC6000D8E79 /* VINOCR.h in Headers */,
+				23B253C51D2CCDC6000D8E79 /* vin_common.hpp in Headers */,
+				23B253C71D2CCDC6000D8E79 /* vin_detect.hpp in Headers */,
+				23B253C91D2CCDC6000D8E79 /* vin_locate.hpp in Headers */,
+				23B253CB1D2CCDC6000D8E79 /* vin_segment.hpp in Headers */,
+				23B253CC1D2CCDC6000D8E79 /* UIImageCVMatConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23B253A41D2CCCDD000D8E79 /* VINOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B253A81D2CCCDD000D8E79 /* Build configuration list for PBXNativeTarget "VINOCR" */;
+			buildPhases = (
+				23B253A11D2CCCDD000D8E79 /* Sources */,
+				23B253A21D2CCCDD000D8E79 /* Frameworks */,
+				23B253A31D2CCCDD000D8E79 /* Resources */,
+				23B253C31D2CCDB4000D8E79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VINOCR;
+			productName = VINOCR;
+			productReference = 23B253A51D2CCCDD000D8E79 /* VINOCR.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B2538D1D2CCCA4000D8E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dai;
+				TargetAttributes = {
+					23B253A41D2CCCDD000D8E79 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 23B253901D2CCCA4000D8E79 /* Build configuration list for PBXProject "VINOCR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23B2538C1D2CCCA4000D8E79;
+			productRefGroup = 23B253961D2CCCA4000D8E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B253A41D2CCCDD000D8E79 /* VINOCR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B253A31D2CCCDD000D8E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B254031D2CD04D000D8E79 /* hog+svm in Resources */,
+				23B254041D2CD04D000D8E79 /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B253A11D2CCCDD000D8E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B253C21D2CCDAB000D8E79 /* VINOCR.mm in Sources */,
+				23B253BC1D2CCDAB000D8E79 /* vin_detect.cpp in Sources */,
+				23B253BB1D2CCDAB000D8E79 /* vin_common.cpp in Sources */,
+				23B253BD1D2CCDAB000D8E79 /* vin_locate.cpp in Sources */,
+				23B253BE1D2CCDAB000D8E79 /* vin_segment.cpp in Sources */,
+				23B253C11D2CCDAB000D8E79 /* UIImageCVMatConverter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23B2539C1D2CCCA4000D8E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		23B2539D1D2CCCA4000D8E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		23B253A91D2CCCDD000D8E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VINOCR/Frameworks",
+				);
+				INFOPLIST_FILE = VINOCR/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dai.VINOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		23B253AA1D2CCCDD000D8E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VINOCR/Frameworks",
+				);
+				INFOPLIST_FILE = VINOCR/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dai.VINOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B253901D2CCCA4000D8E79 /* Build configuration list for PBXProject "VINOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B2539C1D2CCCA4000D8E79 /* Debug */,
+				23B2539D1D2CCCA4000D8E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B253A81D2CCCDD000D8E79 /* Build configuration list for PBXNativeTarget "VINOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B253A91D2CCCDD000D8E79 /* Debug */,
+				23B253AA1D2CCCDD000D8E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B2538D1D2CCCA4000D8E79 /* Project object */;
+}
