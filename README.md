@@ -9,3 +9,8 @@
 3.识别［HOG＋SVM］
 注：由于训练集与测试集数量有限，为保证识别的正确率，字符识别阶段引入了Google TesseractOCR进行字符识别(https://github.com/gali8/Tesseract-OCR-iOS)
 
+使用方式：
+1.将工程生成的VINOCR.framework引入目标工程
+2.目标工程引入libc++.1.tbd
+3.VINOCR不支持arm64架构，因此目标工程BuildSettings->Architectures->Valid Architectures中需删除
+4.将VINOCR.framework中的tessdata文件夹拷贝到目标工程目录，并引入目标工程以确保TesseractOCR使用
